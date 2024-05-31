@@ -1,0 +1,40 @@
+#root {
+  --blue-500: rgba(23, 162, 184, 1);
+  --blue-700: rgba(49, 127, 139, 1);
+  --slate-800: rgba(52, 52, 52, 1);
+  --gray-200: rgba(208, 208, 208, 1);
+  --gray-500: rgba(130, 130, 130, 1);
+  --gray-300: rgba(237, 245, 254, 1);
+  --gray-400: rgba(112, 112, 112, 1);
+  --blue-200: rgba(67, 145, 237, 0.1);
+  --red-400: rgba(207, 54, 54, 1);
+  --red-600: rgb(208, 23, 23);
+  --red-200: rgb(255, 235, 235);
+  --slate-200: rgba(238, 242, 245, 1);
+  --slate-300: rgba(156, 183, 197, 1);
+  --slate-400: rgba(141, 170, 185, 0.8);
+  --gray: rgba(118, 117, 117, 1);
+  --blue-300: rgba(144, 196, 204, 1);
+  --blue-100: rgba(249, 252, 255, 1);
+  --pink-400: rgba(255, 36, 115, 1);
+  --whitesmoke: rgba(226, 226, 226, 1);
+  --blue-400: rgba(24, 176, 255, 1);
+  --green-400: rgba(99, 192, 91, 1);
+  --gray-dark: rgba(219, 219, 219, 1);
+  --slate-500: rgba(90, 90, 90, 1);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open sans',sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100dvh;
+}
+.rdp-vhidden {
+  display: none;
+}
+

@@ -1,0 +1,116 @@
+.card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 20px;
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+}
+
+.title {
+    margin: 0;
+    font-size: clamp(1rem,1.2vw,1.5rem);
+    cursor: default;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checklist-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checklist-header p {
+    font-weight: 500;
+}
+
+.checklist-header button {
+    background-color: var(--whitesmoke);
+    border: 1ox solid var(--whitesmoke);
+    color: var(--gray);
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.task {
+    position: relative;
+}
+
+
+.task-content {
+    width: 85%;
+    padding: 0.8rem 1rem;
+    padding-left: 2rem;
+    border: 1px solid var(--whitesmoke);
+    border-radius: 12px;
+}
+
+.task-content p {
+    margin: 0;
+    font-size: clamp(0.8rem,0.8vw,1rem);
+    
+}
+
+.checkbox {
+    position: absolute;
+    top: 0.9rem;
+}
+
+.checkbox {
+    left: 0.5rem;
+    cursor: pointer;
+}
+
+
+.task-btns {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+
+.date {
+    background-color: var(--green-400);
+    padding: 0.5rem;
+    color: white;
+    border-radius: 8px;
+    font-size: clamp(0.5rem,0.6vw,0.8rem);
+    font-weight: 500;
+}
+
+
+.btns {
+    display: flex;
+    gap: 0.5rem;
+    
+}
+
+.btns button {
+    font-family: 'Poppins',sans-serif;
+    background-color: var(--whitesmoke);
+    border: 1px solid var(--whitesmoke);
+    color: var(--gray);
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: clamp(0.5rem,0.6vw,0.8rem);
+}
+
+.btns button:hover {
+    background-color: var(--gray-200);
+}

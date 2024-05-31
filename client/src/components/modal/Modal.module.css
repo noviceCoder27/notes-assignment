@@ -1,0 +1,112 @@
+.modal,.overlay {
+    position: absolute;
+    height: 100dvh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background-color: black;
+    opacity: 60%;
+}
+
+.task-content {
+    position: relative;
+    z-index: 4;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 32vw;
+    border-radius: 22px;
+    font-family: 'Inter',sans-serif;
+}
+
+.asterisk {
+    color: red;
+    font-weight: 600;
+}
+
+.title,.description-label {
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+}
+
+.title label {
+    display: block;
+}
+
+.title input {
+    width: 93%;
+    margin: 0.5rem 0;
+    padding: 0.8rem 1rem;
+    border-radius: 4px;
+    border: 1px solid var(--whitesmoke);
+    outline: 1px solid var(--whitesmoke);
+}
+
+.tite input::placeholder {
+    font-family: 'Inter',sans-serif;
+}
+
+
+.description {
+    width: 93%;
+    height: 100px;
+    margin: 0.5rem 0;
+    padding: 0.8rem 1rem;
+    font-family: 'Inter',sans-serif;
+    border-radius: 4px;
+    border: 1px solid var(--whitesmoke);
+    outline: 1px solid var(--whitesmoke);
+}
+
+.btns {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns button {
+    font-family: 'Poppins',sans-serif;
+    border-radius: 12px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    box-shadow: 0 2px 12px 0 rgba(130, 105, 140, 0.2);
+}
+
+.cancel {
+    border: 1px solid var(--red-400);
+    background-color: transparent;
+    color: var(--red-400);
+    font-weight: 600;
+    margin-right: 1rem;
+    width: 150px;
+}
+
+.save {
+    background-color: var(--blue-400);
+    border: 1px solid var(--blue-400);
+    color: white;
+    font-weight: 600;
+    width: 150px;
+}
+
+.cancel:hover {
+    background-color: var(--red-200);
+}
+
+.save:hover {
+    background-color: var(--blue-700);
+    border: 1px solid var(--blue-700);
+}
+
+
