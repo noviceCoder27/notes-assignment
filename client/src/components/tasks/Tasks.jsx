@@ -61,7 +61,7 @@ const Tasks = ({ details, buttons, tasks, setTasks }) => {
                     </div>
                 </div>
                 <div className={styles["task-btns"]}>
-                    {details?.category === "completed" && <div className={`${styles["date"]}`}>{formatDate(details?.completedAt)}</div>}
+                    {details?.category === "completed" && <div className={`${styles["date"]}`}>{formatDate(details?.completedAt || new Date())}</div>}
                     <div className={styles["btns"]}>
                         {displayButtons}
                     </div>
