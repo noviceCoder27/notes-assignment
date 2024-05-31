@@ -10,6 +10,7 @@ Follow these steps to run the project:
    ```
    git clone <url>
    ```
+   **Alternative**: download and unzip the folder instead of git clone.
 
 2. **Navigate to the Project Directory**
    Change your current directory to the project's directory.
