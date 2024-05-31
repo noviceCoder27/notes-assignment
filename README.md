@@ -1,5 +1,5 @@
-# task-assignment
-A task creation webpage
+# todo-assignment
+A todo creation webpage
 
 
 Follow these steps to run the project:
@@ -52,5 +52,5 @@ Follow these steps to run the project:
 
 
 
-That's it! Your Task Creation project should now be running.
+That's it! Your Todo Creation project should now be running.
 
